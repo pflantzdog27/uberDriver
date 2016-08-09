@@ -1,0 +1,157 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:100,300,700';
+@import 'bourbon/bourbon';
+@import 'bootstrap';
+@import 'glyphs';
+@import 'variables';
+@import 'mixins';
+
+
+/* -------------------------------- 
+Primary style
+-------------------------------- */
+body {
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+    font-size: 10px;
+    color: $standardTextColor;  
+    a {
+        &:hover {
+            text-decoration: none;
+        }
+    }
+    
+}
+.ghost-button {
+    @include button(#444,#777);
+    &[disabled] {
+        opacity: 0.2;
+        pointer-events:inherit;
+    }
+}
+h1 {
+    color: $standardTextColor;
+}
+h3 {
+    font-family: $primary;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    letter-spacing: 0.07rem;
+    line-height: 2.2rem;
+    color: $standardTextColor;
+    margin: 7px 0;
+}
+p {
+    font-family: $primary;
+    font-weight: 300;
+    letter-spacing: 0.02rem;
+    word-spacing: 0.04rem;
+    font-size: 2.2rem;
+    line-height: 3.8rem;
+    margin-bottom: 25px;
+}
+small {
+    font-size: 1.3rem;
+}
+.spinner {
+    position: absolute;
+    top: 40%;
+    left: 35vw;
+    display: block;
+  width: 100px;
+  height: 100px;
+  background-color: #3d95ce;
+  @include border-radius(100%);
+   @include animation(0,2s,sk-scaleout); //ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+
+/* -------------------------------- 
+Cover BG with Snap
+-------------------------------- */
+#coverBG-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    background: $coverBG;
+    z-index: -1;
+    .rotating-box {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        perspective: 300px;
+        transform-style: preserve-3d;
+        -webkit-animation-iteration-count: infinite;
+        -moz-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+        -webkit-animation-timing-function: linear;
+        -moz-animation-timing-function: linear;
+        animation-timing-function: linear;
+        &#coverBG {
+           background: $box3d-a;
+           @include animation(0,20s,spinner); 
+           filter: grayscale(1%);
+        }
+        &#coverBG-reverse {
+           background: $box3d-b;
+           @include animation(0,40s,spinnerReverse); 
+           filter: grayscale(1%);
+        }
+    }
+}
+/* -------------------------------- 
+Main Page Content
+-------------------------------- */
+
+#main-container {
+    overflow: hidden;
+    .logo {
+        width: 150px;
+        position: fixed;
+        top: 20px;
+        left: 20px;
+    }
+    .view-container {
+        margin-left: $sidebar-width-L;
+        position: relative;
+        min-height: 100vh;
+            .ng-enter{
+                animation: slideInRight 0.5s both ease-in; z-index: 8888; 
+            }
+            .ng-leave { 
+                animation: slideOutLeft 0.2s both ease-in; z-index: 9999; 
+            }
+            @include tablets {
+                margin-left: $sidebar-width-M;
+                padding-top: 0;
+            }
+        .page {
+            padding: 70px 20px 70px;
+        }
+        > div {
+            min-height: 100vh;
+        }
+    }
+}
+.ui-grid {
+  position: absolute;
+  height: auto;
+  top: 50px;
+  left: 15px;
+  right: 15px;
+  bottom: 30px;
+}
+
+
+

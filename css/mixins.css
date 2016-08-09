@@ -1,0 +1,1417 @@
+/***  Radius  ***/
+/***  Box Border  ***/
+/***  Cover BG  ***/
+/***  Flexbox  ***/
+/* --------------------
+Extenders
+--------------------------*/
+/* --------------------
+Keyframes
+--------------------------*/
+@-moz-keyframes hoverSideNavItemIcon {
+  0% {
+    border-color: rgba(255, 255, 255, 0.1); }
+  100% {
+    left: 50%;
+    right: auto;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    border-color: transparent;
+    background: none;
+    color: #3d94ce; } }
+
+@-webkit-keyframes hoverSideNavItemIcon {
+  0% {
+    border-color: rgba(255, 255, 255, 0.1); }
+  100% {
+    left: 50%;
+    right: auto;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    border-color: transparent;
+    background: none;
+    color: #3d94ce; } }
+
+@-o-keyframes hoverSideNavItemIcon {
+  0% {
+    border-color: rgba(255, 255, 255, 0.1); }
+  100% {
+    left: 50%;
+    right: auto;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    border-color: transparent;
+    background: none;
+    color: #3d94ce; } }
+
+@-ms-keyframes hoverSideNavItemIcon {
+  /* line 314, /Users/apflantzer/cbs_Projects/externalIncidentSubmission/app/css/mixins.scss */
+  0% {
+    border-color: rgba(255, 255, 255, 0.1); }
+  /* line 317, /Users/apflantzer/cbs_Projects/externalIncidentSubmission/app/css/mixins.scss */
+  100% {
+    left: 50%;
+    right: auto;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    border-color: transparent;
+    background: none;
+    color: #3d94ce; } }
+
+@-khtml-keyframes hoverSideNavItemIcon {
+  /* line 314, /Users/apflantzer/cbs_Projects/externalIncidentSubmission/app/css/mixins.scss */
+  0% {
+    border-color: rgba(255, 255, 255, 0.1); }
+  /* line 317, /Users/apflantzer/cbs_Projects/externalIncidentSubmission/app/css/mixins.scss */
+  100% {
+    left: 50%;
+    right: auto;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    border-color: transparent;
+    background: none;
+    color: #3d94ce; } }
+
+@keyframes hoverSideNavItemIcon {
+  0% {
+    border-color: rgba(255, 255, 255, 0.1); }
+  100% {
+    left: 50%;
+    right: auto;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    border-color: transparent;
+    background: none;
+    color: #3d94ce; } }
+
+@-moz-keyframes hoverSideNavItemIcon-back {
+  100% {
+    border-color: rgba(255, 255, 255, 0.1); }
+  0% {
+    left: 50%;
+    right: auto;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    border-color: transparent;
+    background: none;
+    color: #3d94ce; } }
+
+@-webkit-keyframes hoverSideNavItemIcon-back {
+  100% {
+    border-color: rgba(255, 255, 255, 0.1); }
+  0% {
+    left: 50%;
+    right: auto;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    border-color: transparent;
+    background: none;
+    color: #3d94ce; } }
+
+@-o-keyframes hoverSideNavItemIcon-back {
+  100% {
+    border-color: rgba(255, 255, 255, 0.1); }
+  0% {
+    left: 50%;
+    right: auto;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    border-color: transparent;
+    background: none;
+    color: #3d94ce; } }
+
+@-ms-keyframes hoverSideNavItemIcon-back {
+  /* line 325, /Users/apflantzer/cbs_Projects/externalIncidentSubmission/app/css/mixins.scss */
+  100% {
+    border-color: rgba(255, 255, 255, 0.1); }
+  /* line 328, /Users/apflantzer/cbs_Projects/externalIncidentSubmission/app/css/mixins.scss */
+  0% {
+    left: 50%;
+    right: auto;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    border-color: transparent;
+    background: none;
+    color: #3d94ce; } }
+
+@-khtml-keyframes hoverSideNavItemIcon-back {
+  /* line 325, /Users/apflantzer/cbs_Projects/externalIncidentSubmission/app/css/mixins.scss */
+  100% {
+    border-color: rgba(255, 255, 255, 0.1); }
+  /* line 328, /Users/apflantzer/cbs_Projects/externalIncidentSubmission/app/css/mixins.scss */
+  0% {
+    left: 50%;
+    right: auto;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    border-color: transparent;
+    background: none;
+    color: #3d94ce; } }
+
+@keyframes hoverSideNavItemIcon-back {
+  100% {
+    border-color: rgba(255, 255, 255, 0.1); }
+  0% {
+    left: 50%;
+    right: auto;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    border-color: transparent;
+    background: none;
+    color: #3d94ce; } }
+
+@-moz-keyframes hoverSideNavItemText {
+  0% { }
+  100% {
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px); } }
+
+@-webkit-keyframes hoverSideNavItemText {
+  0% { }
+  100% {
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px); } }
+
+@-o-keyframes hoverSideNavItemText {
+  0% { }
+  100% {
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px); } }
+
+@-ms-keyframes hoverSideNavItemText {
+  /* line 339, /Users/apflantzer/cbs_Projects/externalIncidentSubmission/app/css/mixins.scss */
+  100% {
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px); } }
+
+@-khtml-keyframes hoverSideNavItemText {
+  /* line 339, /Users/apflantzer/cbs_Projects/externalIncidentSubmission/app/css/mixins.scss */
+  100% {
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px); } }
+
+@keyframes hoverSideNavItemText {
+  0% { }
+  100% {
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px); } }
+
+@-moz-keyframes hoverSideNavItemText-back {
+  100% {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0); }
+  0% {
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px); } }
+
+@-webkit-keyframes hoverSideNavItemText-back {
+  100% {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0); }
+  0% {
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px); } }
+
+@-o-keyframes hoverSideNavItemText-back {
+  100% {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0); }
+  0% {
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px); } }
+
+@-ms-keyframes hoverSideNavItemText-back {
+  /* line 344, /Users/apflantzer/cbs_Projects/externalIncidentSubmission/app/css/mixins.scss */
+  100% {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0); }
+  /* line 347, /Users/apflantzer/cbs_Projects/externalIncidentSubmission/app/css/mixins.scss */
+  0% {
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px); } }
+
+@-khtml-keyframes hoverSideNavItemText-back {
+  /* line 344, /Users/apflantzer/cbs_Projects/externalIncidentSubmission/app/css/mixins.scss */
+  100% {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0); }
+  /* line 347, /Users/apflantzer/cbs_Projects/externalIncidentSubmission/app/css/mixins.scss */
+  0% {
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px); } }
+
+@keyframes hoverSideNavItemText-back {
+  100% {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0); }
+  0% {
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px); } }
+
+@-moz-keyframes pulsate {
+  0% {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0);
+    opacity: 0; }
+  25% {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0);
+    opacity: 0.1; }
+  50% {
+    -webkit-transform: scale(0.1);
+    -moz-transform: scale(0.1);
+    -ms-transform: scale(0.1);
+    -o-transform: scale(0.1);
+    transform: scale(0.1);
+    opacity: 0.3; }
+  75% {
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+    transform: scale(0.5);
+    opacity: 0.5; }
+  100% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    opacity: 0; } }
+
+@-webkit-keyframes pulsate {
+  0% {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0);
+    opacity: 0; }
+  25% {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0);
+    opacity: 0.1; }
+  50% {
+    -webkit-transform: scale(0.1);
+    -moz-transform: scale(0.1);
+    -ms-transform: scale(0.1);
+    -o-transform: scale(0.1);
+    transform: scale(0.1);
+    opacity: 0.3; }
+  75% {
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+    transform: scale(0.5);
+    opacity: 0.5; }
+  100% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    opacity: 0; } }
+
+@-o-keyframes pulsate {
+  0% {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0);
+    opacity: 0; }
+  25% {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0);
+    opacity: 0.1; }
+  50% {
+    -webkit-transform: scale(0.1);
+    -moz-transform: scale(0.1);
+    -ms-transform: scale(0.1);
+    -o-transform: scale(0.1);
+    transform: scale(0.1);
+    opacity: 0.3; }
+  75% {
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+    transform: scale(0.5);
+    opacity: 0.5; }
+  100% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    opacity: 0; } }
+
+@-ms-keyframes pulsate {
+  /* line 352, /Users/apflantzer/cbs_Projects/externalIncidentSubmission/app/css/mixins.scss */
+  0% {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0);
+    opacity: 0; }
+  /* line 356, /Users/apflantzer/cbs_Projects/externalIncidentSubmission/app/css/mixins.scss */
+  25% {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0);
+    opacity: 0.1; }
+  /* line 360, /Users/apflantzer/cbs_Projects/externalIncidentSubmission/app/css/mixins.scss */
+  50% {
+    -webkit-transform: scale(0.1);
+    -moz-transform: scale(0.1);
+    -ms-transform: scale(0.1);
+    -o-transform: scale(0.1);
+    transform: scale(0.1);
+    opacity: 0.3; }
+  /* line 364, /Users/apflantzer/cbs_Projects/externalIncidentSubmission/app/css/mixins.scss */
+  75% {
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+    transform: scale(0.5);
+    opacity: 0.5; }
+  /* line 368, /Users/apflantzer/cbs_Projects/externalIncidentSubmission/app/css/mixins.scss */
+  100% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    opacity: 0; } }
+
+@-khtml-keyframes pulsate {
+  /* line 352, /Users/apflantzer/cbs_Projects/externalIncidentSubmission/app/css/mixins.scss */
+  0% {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0);
+    opacity: 0; }
+  /* line 356, /Users/apflantzer/cbs_Projects/externalIncidentSubmission/app/css/mixins.scss */
+  25% {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0);
+    opacity: 0.1; }
+  /* line 360, /Users/apflantzer/cbs_Projects/externalIncidentSubmission/app/css/mixins.scss */
+  50% {
+    -webkit-transform: scale(0.1);
+    -moz-transform: scale(0.1);
+    -ms-transform: scale(0.1);
+    -o-transform: scale(0.1);
+    transform: scale(0.1);
+    opacity: 0.3; }
+  /* line 364, /Users/apflantzer/cbs_Projects/externalIncidentSubmission/app/css/mixins.scss */
+  75% {
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+    transform: scale(0.5);
+    opacity: 0.5; }
+  /* line 368, /Users/apflantzer/cbs_Projects/externalIncidentSubmission/app/css/mixins.scss */
+  100% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    opacity: 0; } }
+
+@keyframes pulsate {
+  0% {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0);
+    opacity: 0; }
+  25% {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0);
+    opacity: 0.1; }
+  50% {
+    -webkit-transform: scale(0.1);
+    -moz-transform: scale(0.1);
+    -ms-transform: scale(0.1);
+    -o-transform: scale(0.1);
+    transform: scale(0.1);
+    opacity: 0.3; }
+  75% {
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+    transform: scale(0.5);
+    opacity: 0.5; }
+  100% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    opacity: 0; } }
+
+@-moz-keyframes slideOutLeft {
+  to {
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    transform: translateX(-100%); } }
+
+@-webkit-keyframes slideOutLeft {
+  to {
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    transform: translateX(-100%); } }
+
+@-o-keyframes slideOutLeft {
+  to {
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    transform: translateX(-100%); } }
+
+@-ms-keyframes slideOutLeft {
+  /* line 374, /Users/apflantzer/cbs_Projects/externalIncidentSubmission/app/css/mixins.scss */
+  to {
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    transform: translateX(-100%); } }
+
+@-khtml-keyframes slideOutLeft {
+  /* line 374, /Users/apflantzer/cbs_Projects/externalIncidentSubmission/app/css/mixins.scss */
+  to {
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    transform: translateX(-100%); } }
+
+@keyframes slideOutLeft {
+  to {
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    transform: translateX(-100%); } }
+
+@-moz-keyframes slideInRight {
+  from {
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    -o-transform: translateX(100%);
+    transform: translateX(100%); }
+  to {
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0); } }
+
+@-webkit-keyframes slideInRight {
+  from {
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    -o-transform: translateX(100%);
+    transform: translateX(100%); }
+  to {
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0); } }
+
+@-o-keyframes slideInRight {
+  from {
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    -o-transform: translateX(100%);
+    transform: translateX(100%); }
+  to {
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0); } }
+
+@-ms-keyframes slideInRight {
+  /* line 377, /Users/apflantzer/cbs_Projects/externalIncidentSubmission/app/css/mixins.scss */
+  from {
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    -o-transform: translateX(100%);
+    transform: translateX(100%); }
+  /* line 378, /Users/apflantzer/cbs_Projects/externalIncidentSubmission/app/css/mixins.scss */
+  to {
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0); } }
+
+@-khtml-keyframes slideInRight {
+  /* line 377, /Users/apflantzer/cbs_Projects/externalIncidentSubmission/app/css/mixins.scss */
+  from {
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    -o-transform: translateX(100%);
+    transform: translateX(100%); }
+  /* line 378, /Users/apflantzer/cbs_Projects/externalIncidentSubmission/app/css/mixins.scss */
+  to {
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0); } }
+
+@keyframes slideInRight {
+  from {
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    -o-transform: translateX(100%);
+    transform: translateX(100%); }
+  to {
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0); } }
+
+@-moz-keyframes spinner {
+  0% {
+    -webkit-transform: rotate3d(1, 1, 1, 0deg);
+    -moz-transform: rotate3d(1, 1, 1, 0deg);
+    -ms-transform: rotate3d(1, 1, 1, 0deg);
+    transform: rotate3d(1, 1, 1, 0deg); }
+  50% {
+    -webkit-transform: rotate3d(1, 1, 1, 180deg);
+    -moz-transform: rotate3d(1, 1, 1, 180deg);
+    -ms-transform: rotate3d(1, 1, 1, 180deg);
+    transform: rotate3d(1, 1, 1, 180deg); }
+  100% {
+    -webkit-transform: rotate3d(1, 1, 1, 360deg);
+    -moz-transform: rotate3d(1, 1, 1, 360deg);
+    -ms-transform: rotate3d(1, 1, 1, 360deg);
+    transform: rotate3d(1, 1, 1, 360deg); } }
+
+@-webkit-keyframes spinner {
+  0% {
+    -webkit-transform: rotate3d(1, 1, 1, 0deg);
+    -moz-transform: rotate3d(1, 1, 1, 0deg);
+    -ms-transform: rotate3d(1, 1, 1, 0deg);
+    transform: rotate3d(1, 1, 1, 0deg); }
+  50% {
+    -webkit-transform: rotate3d(1, 1, 1, 180deg);
+    -moz-transform: rotate3d(1, 1, 1, 180deg);
+    -ms-transform: rotate3d(1, 1, 1, 180deg);
+    transform: rotate3d(1, 1, 1, 180deg); }
+  100% {
+    -webkit-transform: rotate3d(1, 1, 1, 360deg);
+    -moz-transform: rotate3d(1, 1, 1, 360deg);
+    -ms-transform: rotate3d(1, 1, 1, 360deg);
+    transform: rotate3d(1, 1, 1, 360deg); } }
+
+@-o-keyframes spinner {
+  0% {
+    -webkit-transform: rotate3d(1, 1, 1, 0deg);
+    -moz-transform: rotate3d(1, 1, 1, 0deg);
+    -ms-transform: rotate3d(1, 1, 1, 0deg);
+    transform: rotate3d(1, 1, 1, 0deg); }
+  50% {
+    -webkit-transform: rotate3d(1, 1, 1, 180deg);
+    -moz-transform: rotate3d(1, 1, 1, 180deg);
+    -ms-transform: rotate3d(1, 1, 1, 180deg);
+    transform: rotate3d(1, 1, 1, 180deg); }
+  100% {
+    -webkit-transform: rotate3d(1, 1, 1, 360deg);
+    -moz-transform: rotate3d(1, 1, 1, 360deg);
+    -ms-transform: rotate3d(1, 1, 1, 360deg);
+    transform: rotate3d(1, 1, 1, 360deg); } }
+
+@-ms-keyframes spinner {
+  /* line 381, /Users/apflantzer/cbs_Projects/externalIncidentSubmission/app/css/mixins.scss */
+  0% {
+    -webkit-transform: rotate3d(1, 1, 1, 0deg);
+    -moz-transform: rotate3d(1, 1, 1, 0deg);
+    -ms-transform: rotate3d(1, 1, 1, 0deg);
+    transform: rotate3d(1, 1, 1, 0deg); }
+  /* line 384, /Users/apflantzer/cbs_Projects/externalIncidentSubmission/app/css/mixins.scss */
+  50% {
+    -webkit-transform: rotate3d(1, 1, 1, 180deg);
+    -moz-transform: rotate3d(1, 1, 1, 180deg);
+    -ms-transform: rotate3d(1, 1, 1, 180deg);
+    transform: rotate3d(1, 1, 1, 180deg); }
+  /* line 387, /Users/apflantzer/cbs_Projects/externalIncidentSubmission/app/css/mixins.scss */
+  100% {
+    -webkit-transform: rotate3d(1, 1, 1, 360deg);
+    -moz-transform: rotate3d(1, 1, 1, 360deg);
+    -ms-transform: rotate3d(1, 1, 1, 360deg);
+    transform: rotate3d(1, 1, 1, 360deg); } }
+
+@-khtml-keyframes spinner {
+  /* line 381, /Users/apflantzer/cbs_Projects/externalIncidentSubmission/app/css/mixins.scss */
+  0% {
+    -webkit-transform: rotate3d(1, 1, 1, 0deg);
+    -moz-transform: rotate3d(1, 1, 1, 0deg);
+    -ms-transform: rotate3d(1, 1, 1, 0deg);
+    transform: rotate3d(1, 1, 1, 0deg); }
+  /* line 384, /Users/apflantzer/cbs_Projects/externalIncidentSubmission/app/css/mixins.scss */
+  50% {
+    -webkit-transform: rotate3d(1, 1, 1, 180deg);
+    -moz-transform: rotate3d(1, 1, 1, 180deg);
+    -ms-transform: rotate3d(1, 1, 1, 180deg);
+    transform: rotate3d(1, 1, 1, 180deg); }
+  /* line 387, /Users/apflantzer/cbs_Projects/externalIncidentSubmission/app/css/mixins.scss */
+  100% {
+    -webkit-transform: rotate3d(1, 1, 1, 360deg);
+    -moz-transform: rotate3d(1, 1, 1, 360deg);
+    -ms-transform: rotate3d(1, 1, 1, 360deg);
+    transform: rotate3d(1, 1, 1, 360deg); } }
+
+@keyframes spinner {
+  0% {
+    -webkit-transform: rotate3d(1, 1, 1, 0deg);
+    -moz-transform: rotate3d(1, 1, 1, 0deg);
+    -ms-transform: rotate3d(1, 1, 1, 0deg);
+    transform: rotate3d(1, 1, 1, 0deg); }
+  50% {
+    -webkit-transform: rotate3d(1, 1, 1, 180deg);
+    -moz-transform: rotate3d(1, 1, 1, 180deg);
+    -ms-transform: rotate3d(1, 1, 1, 180deg);
+    transform: rotate3d(1, 1, 1, 180deg); }
+  100% {
+    -webkit-transform: rotate3d(1, 1, 1, 360deg);
+    -moz-transform: rotate3d(1, 1, 1, 360deg);
+    -ms-transform: rotate3d(1, 1, 1, 360deg);
+    transform: rotate3d(1, 1, 1, 360deg); } }
+
+@-moz-keyframes spinnerReverse {
+  0% {
+    -webkit-transform: rotate3d(1, 1, 1, 0deg);
+    -moz-transform: rotate3d(1, 1, 1, 0deg);
+    -ms-transform: rotate3d(1, 1, 1, 0deg);
+    transform: rotate3d(1, 1, 1, 0deg); }
+  50% {
+    -webkit-transform: rotate3d(1, 1, 1, -180deg);
+    -moz-transform: rotate3d(1, 1, 1, -180deg);
+    -ms-transform: rotate3d(1, 1, 1, -180deg);
+    transform: rotate3d(1, 1, 1, -180deg); }
+  100% {
+    -webkit-transform: rotate3d(1, 1, 1, -360deg);
+    -moz-transform: rotate3d(1, 1, 1, -360deg);
+    -ms-transform: rotate3d(1, 1, 1, -360deg);
+    transform: rotate3d(1, 1, 1, -360deg); } }
+
+@-webkit-keyframes spinnerReverse {
+  0% {
+    -webkit-transform: rotate3d(1, 1, 1, 0deg);
+    -moz-transform: rotate3d(1, 1, 1, 0deg);
+    -ms-transform: rotate3d(1, 1, 1, 0deg);
+    transform: rotate3d(1, 1, 1, 0deg); }
+  50% {
+    -webkit-transform: rotate3d(1, 1, 1, -180deg);
+    -moz-transform: rotate3d(1, 1, 1, -180deg);
+    -ms-transform: rotate3d(1, 1, 1, -180deg);
+    transform: rotate3d(1, 1, 1, -180deg); }
+  100% {
+    -webkit-transform: rotate3d(1, 1, 1, -360deg);
+    -moz-transform: rotate3d(1, 1, 1, -360deg);
+    -ms-transform: rotate3d(1, 1, 1, -360deg);
+    transform: rotate3d(1, 1, 1, -360deg); } }
+
+@-o-keyframes spinnerReverse {
+  0% {
+    -webkit-transform: rotate3d(1, 1, 1, 0deg);
+    -moz-transform: rotate3d(1, 1, 1, 0deg);
+    -ms-transform: rotate3d(1, 1, 1, 0deg);
+    transform: rotate3d(1, 1, 1, 0deg); }
+  50% {
+    -webkit-transform: rotate3d(1, 1, 1, -180deg);
+    -moz-transform: rotate3d(1, 1, 1, -180deg);
+    -ms-transform: rotate3d(1, 1, 1, -180deg);
+    transform: rotate3d(1, 1, 1, -180deg); }
+  100% {
+    -webkit-transform: rotate3d(1, 1, 1, -360deg);
+    -moz-transform: rotate3d(1, 1, 1, -360deg);
+    -ms-transform: rotate3d(1, 1, 1, -360deg);
+    transform: rotate3d(1, 1, 1, -360deg); } }
+
+@-ms-keyframes spinnerReverse {
+  /* line 392, /Users/apflantzer/cbs_Projects/externalIncidentSubmission/app/css/mixins.scss */
+  0% {
+    -webkit-transform: rotate3d(1, 1, 1, 0deg);
+    -moz-transform: rotate3d(1, 1, 1, 0deg);
+    -ms-transform: rotate3d(1, 1, 1, 0deg);
+    transform: rotate3d(1, 1, 1, 0deg); }
+  /* line 395, /Users/apflantzer/cbs_Projects/externalIncidentSubmission/app/css/mixins.scss */
+  50% {
+    -webkit-transform: rotate3d(1, 1, 1, -180deg);
+    -moz-transform: rotate3d(1, 1, 1, -180deg);
+    -ms-transform: rotate3d(1, 1, 1, -180deg);
+    transform: rotate3d(1, 1, 1, -180deg); }
+  /* line 398, /Users/apflantzer/cbs_Projects/externalIncidentSubmission/app/css/mixins.scss */
+  100% {
+    -webkit-transform: rotate3d(1, 1, 1, -360deg);
+    -moz-transform: rotate3d(1, 1, 1, -360deg);
+    -ms-transform: rotate3d(1, 1, 1, -360deg);
+    transform: rotate3d(1, 1, 1, -360deg); } }
+
+@-khtml-keyframes spinnerReverse {
+  /* line 392, /Users/apflantzer/cbs_Projects/externalIncidentSubmission/app/css/mixins.scss */
+  0% {
+    -webkit-transform: rotate3d(1, 1, 1, 0deg);
+    -moz-transform: rotate3d(1, 1, 1, 0deg);
+    -ms-transform: rotate3d(1, 1, 1, 0deg);
+    transform: rotate3d(1, 1, 1, 0deg); }
+  /* line 395, /Users/apflantzer/cbs_Projects/externalIncidentSubmission/app/css/mixins.scss */
+  50% {
+    -webkit-transform: rotate3d(1, 1, 1, -180deg);
+    -moz-transform: rotate3d(1, 1, 1, -180deg);
+    -ms-transform: rotate3d(1, 1, 1, -180deg);
+    transform: rotate3d(1, 1, 1, -180deg); }
+  /* line 398, /Users/apflantzer/cbs_Projects/externalIncidentSubmission/app/css/mixins.scss */
+  100% {
+    -webkit-transform: rotate3d(1, 1, 1, -360deg);
+    -moz-transform: rotate3d(1, 1, 1, -360deg);
+    -ms-transform: rotate3d(1, 1, 1, -360deg);
+    transform: rotate3d(1, 1, 1, -360deg); } }
+
+@keyframes spinnerReverse {
+  0% {
+    -webkit-transform: rotate3d(1, 1, 1, 0deg);
+    -moz-transform: rotate3d(1, 1, 1, 0deg);
+    -ms-transform: rotate3d(1, 1, 1, 0deg);
+    transform: rotate3d(1, 1, 1, 0deg); }
+  50% {
+    -webkit-transform: rotate3d(1, 1, 1, -180deg);
+    -moz-transform: rotate3d(1, 1, 1, -180deg);
+    -ms-transform: rotate3d(1, 1, 1, -180deg);
+    transform: rotate3d(1, 1, 1, -180deg); }
+  100% {
+    -webkit-transform: rotate3d(1, 1, 1, -360deg);
+    -moz-transform: rotate3d(1, 1, 1, -360deg);
+    -ms-transform: rotate3d(1, 1, 1, -360deg);
+    transform: rotate3d(1, 1, 1, -360deg); } }
+
+@-moz-keyframes shrinkHide {
+  0% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1); }
+  30% {
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    -o-transform: scale(1.02);
+    transform: scale(1.02); }
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+    transform: scale(0.5); } }
+
+@-webkit-keyframes shrinkHide {
+  0% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1); }
+  30% {
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    -o-transform: scale(1.02);
+    transform: scale(1.02); }
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+    transform: scale(0.5); } }
+
+@-o-keyframes shrinkHide {
+  0% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1); }
+  30% {
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    -o-transform: scale(1.02);
+    transform: scale(1.02); }
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+    transform: scale(0.5); } }
+
+@-ms-keyframes shrinkHide {
+  /* line 403, /Users/apflantzer/cbs_Projects/externalIncidentSubmission/app/css/mixins.scss */
+  0% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1); }
+  /* line 407, /Users/apflantzer/cbs_Projects/externalIncidentSubmission/app/css/mixins.scss */
+  30% {
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    -o-transform: scale(1.02);
+    transform: scale(1.02); }
+  /* line 410, /Users/apflantzer/cbs_Projects/externalIncidentSubmission/app/css/mixins.scss */
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+    transform: scale(0.5); } }
+
+@-khtml-keyframes shrinkHide {
+  /* line 403, /Users/apflantzer/cbs_Projects/externalIncidentSubmission/app/css/mixins.scss */
+  0% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1); }
+  /* line 407, /Users/apflantzer/cbs_Projects/externalIncidentSubmission/app/css/mixins.scss */
+  30% {
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    -o-transform: scale(1.02);
+    transform: scale(1.02); }
+  /* line 410, /Users/apflantzer/cbs_Projects/externalIncidentSubmission/app/css/mixins.scss */
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+    transform: scale(0.5); } }
+
+@keyframes shrinkHide {
+  0% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1); }
+  30% {
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    -o-transform: scale(1.02);
+    transform: scale(1.02); }
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+    transform: scale(0.5); } }
+
+@-moz-keyframes shrinkShow {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+    transform: scale(0.5); }
+  70% {
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    -o-transform: scale(1.02);
+    transform: scale(1.02); }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1); } }
+
+@-webkit-keyframes shrinkShow {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+    transform: scale(0.5); }
+  70% {
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    -o-transform: scale(1.02);
+    transform: scale(1.02); }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1); } }
+
+@-o-keyframes shrinkShow {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+    transform: scale(0.5); }
+  70% {
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    -o-transform: scale(1.02);
+    transform: scale(1.02); }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1); } }
+
+@-ms-keyframes shrinkShow {
+  /* line 416, /Users/apflantzer/cbs_Projects/externalIncidentSubmission/app/css/mixins.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+    transform: scale(0.5); }
+  /* line 420, /Users/apflantzer/cbs_Projects/externalIncidentSubmission/app/css/mixins.scss */
+  70% {
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    -o-transform: scale(1.02);
+    transform: scale(1.02); }
+  /* line 423, /Users/apflantzer/cbs_Projects/externalIncidentSubmission/app/css/mixins.scss */
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1); } }
+
+@-khtml-keyframes shrinkShow {
+  /* line 416, /Users/apflantzer/cbs_Projects/externalIncidentSubmission/app/css/mixins.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+    transform: scale(0.5); }
+  /* line 420, /Users/apflantzer/cbs_Projects/externalIncidentSubmission/app/css/mixins.scss */
+  70% {
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    -o-transform: scale(1.02);
+    transform: scale(1.02); }
+  /* line 423, /Users/apflantzer/cbs_Projects/externalIncidentSubmission/app/css/mixins.scss */
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1); } }
+
+@keyframes shrinkShow {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+    transform: scale(0.5); }
+  70% {
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    -o-transform: scale(1.02);
+    transform: scale(1.02); }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1); } }
+
+@-moz-keyframes shrinkShowHighlight {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+    transform: scale(0.5); }
+  70% {
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    -o-transform: scale(1.02);
+    transform: scale(1.02);
+    color: gold; }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    color: #fff; } }
+
+@-webkit-keyframes shrinkShowHighlight {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+    transform: scale(0.5); }
+  70% {
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    -o-transform: scale(1.02);
+    transform: scale(1.02);
+    color: gold; }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    color: #fff; } }
+
+@-o-keyframes shrinkShowHighlight {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+    transform: scale(0.5); }
+  70% {
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    -o-transform: scale(1.02);
+    transform: scale(1.02);
+    color: gold; }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    color: #fff; } }
+
+@-ms-keyframes shrinkShowHighlight {
+  /* line 429, /Users/apflantzer/cbs_Projects/externalIncidentSubmission/app/css/mixins.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+    transform: scale(0.5); }
+  /* line 433, /Users/apflantzer/cbs_Projects/externalIncidentSubmission/app/css/mixins.scss */
+  70% {
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    -o-transform: scale(1.02);
+    transform: scale(1.02);
+    color: gold; }
+  /* line 437, /Users/apflantzer/cbs_Projects/externalIncidentSubmission/app/css/mixins.scss */
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    color: #fff; } }
+
+@-khtml-keyframes shrinkShowHighlight {
+  /* line 429, /Users/apflantzer/cbs_Projects/externalIncidentSubmission/app/css/mixins.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+    transform: scale(0.5); }
+  /* line 433, /Users/apflantzer/cbs_Projects/externalIncidentSubmission/app/css/mixins.scss */
+  70% {
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    -o-transform: scale(1.02);
+    transform: scale(1.02);
+    color: gold; }
+  /* line 437, /Users/apflantzer/cbs_Projects/externalIncidentSubmission/app/css/mixins.scss */
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    color: #fff; } }
+
+@keyframes shrinkShowHighlight {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+    transform: scale(0.5); }
+  70% {
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    -o-transform: scale(1.02);
+    transform: scale(1.02);
+    color: gold; }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    color: #fff; } }
+
+@-moz-keyframes sk-scaleout {
+  0% {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0); }
+  100% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    opacity: 0; } }
+
+@-webkit-keyframes sk-scaleout {
+  0% {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0); }
+  100% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    opacity: 0; } }
+
+@-o-keyframes sk-scaleout {
+  0% {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0); }
+  100% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    opacity: 0; } }
+
+@-ms-keyframes sk-scaleout {
+  /* line 444, /Users/apflantzer/cbs_Projects/externalIncidentSubmission/app/css/mixins.scss */
+  0% {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0); }
+  /* line 446, /Users/apflantzer/cbs_Projects/externalIncidentSubmission/app/css/mixins.scss */
+  100% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    opacity: 0; } }
+
+@-khtml-keyframes sk-scaleout {
+  /* line 444, /Users/apflantzer/cbs_Projects/externalIncidentSubmission/app/css/mixins.scss */
+  0% {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0); }
+  /* line 446, /Users/apflantzer/cbs_Projects/externalIncidentSubmission/app/css/mixins.scss */
+  100% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    opacity: 0; } }
+
+@keyframes sk-scaleout {
+  0% {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0); }
+  100% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    opacity: 0; } }
+
+/*# sourceMappingURL=mixins.css.map */
